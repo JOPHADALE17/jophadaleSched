@@ -1,0 +1,148 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../assets/images.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    height: 20vh;
+    background-image: url('../../../assets/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: 2%;
+}
+
+.form {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the element */
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh; /* Add space between input fields */
+}
+
+.inputFields {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1; /* Background color for input field container */
+    border-radius: 5px; /* Rounded corners for container */
+    padding: 10px;
+    width: 40vh;
+    height: 6vh;
+}
+
+.inputFields input {
+    border: none;
+    outline: none;
+    padding: 1.6vh;
+    border-radius: 5%;
+    width: 6vh;
+    height: 4vh;
+    flex: 1; /* Make the input field take the available space */
+}
+
+.inputFields .icon {
+    font-size: 4vh;
+    margin-right: 1vh; /* Space between icon and input field */
+    color: #333; /* Color of the icon */
+}
+
+.formTitle{
+    position: relative;
+    display: flex;
+    font-size: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.989);
+}
+
+.forgotPassword {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.736);
+}
+
+.forgotPassword:hover {
+    color: rgb(0, 221, 255);
+}
+
+.loginButton {
+    color: white;
+    background-color: rgba(0, 46, 109, 0.989);
+    width: 15vw;
+    height: 7vh;
+    border-radius: 10%;
+    margin-top: 2vh;
+}
+
+.errorMessage {
+    color: rgb(164, 0, 0);
+    font-size: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-body {
+    background-image: url('../../../assets/homepage2.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+}
+
+/* .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+} */
+
+.generalForm {
+    background-color: rgba(0, 0, 0, 0.489);
+    border-radius: 5%;
+    padding: 2vh;
+    max-width: 600px;
+    width: 100%; 
+    margin: 2vh;
+    color: white;
+}
+
+.buttonGroup{
+    gap: 2vh;
+    display: flex;
+}
+
+form {
+    padding: 2vh;
+}
+
+.errormessage {
+    color: rgb(0, 255, 255);
+}
+
+
+.addbuttondetail{
+    width: 100%;
+}

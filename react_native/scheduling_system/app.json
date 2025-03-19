@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "scheduling System",
+    "slug": "scheduling System",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#027b94"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#027b94"
+      },
+      "android": {
+        "permissions": ["NOTIFICATIONS"]
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "notification": {
+      "icon": "./assets/logo.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "Class Reminder",
+      "androidShowForeground": true,
+      "sounds": ["./assets/ringtone/ringtone.mp3"]
+    },
+
+    "extra": {
+      "VITE_apiUrl": "http://your_ipaddress:8000",
+      "VITE_wsUrl": "ws://your_ipaddress:8000",
+      "eas": {
+        "projectId": "1ae33800-e497-45ab-bb3b-451f6519f90e"
+      }
+    }
+  }
+}

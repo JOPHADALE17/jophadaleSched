@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.homePageContent {
+    height: 100vh;
+    /* width: 100%; */
+    background: linear-gradient(to bottom, #000000c8, #00395fc8, #000000c8), url('../../../assets/homepage2.png');
+    /* background-image: url('../../../assets/homepage.png'); */
+    /* background: linear-gradient(to bottom, #141e32c8, #ff7632c8), url('../../../assets/homepage2.png'); */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.nav-pills .nav-link {
+    color: white; /* Default text color */
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff; /* Background color for the active link */
+    color: white; /* Text color for the active link */
+}
+
+/* Optional: If you want to change the hover color */
+.nav-pills .nav-link:hover {
+    color: #cccccc; /* Change this to your desired hover color */
+}
+
+@keyframes moveAirplane {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+.cardtable {
+    background-color: #f1f1f100;
+    color: white;
+}
+
+.addbutton{
+    position: relative;
+    display: flex;
+
+}
+
+.scrollable-table-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 550px;
+    position: relative;
+    width: 100%; /* Ensure the container takes full width */
+}
+
+table {
+    width: auto; /* Adjust width to fit the content */
+    border-collapse: collapse;
+    background: rgba(0, 23, 61, 0.004);
+    border-width: 2vh;
+    margin: 0 auto; /* Center the table */
+}
+
+
+thead th, thead td {
+    position: sticky;
+    top: 0;
+    background-color: rgb(80, 80, 80); /* Change as needed */
+    z-index: 1;
+    text-align: left;
+    padding: 10px;
+    white-space: nowrap;
+    width: 400px;
+    border-color: rgb(137, 137, 137);
+    border-width: .2vh;
+}
+
+tbody td {
+    padding: 10px;
+    /* border-image: linear-gradient(to bottom, #141e32c8, #ff7632c8); */
+    border-color: rgb(137, 137, 137);
+    border-width: .2vh;
+    white-space: nowrap;
+}
+
+.modal-body {
+    background-image: url('../../../assets/homepage2.png');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+} 
+
+.updateModalparent{
+    min-height: auto;
+    min-width: 2px;
+    background-color: #00000000;
+    background-image: none;
+    left: 20%
+
+}
+
+.updateModalparentClass{
+    min-height: auto;
+    min-width: 2px;
+    background-color: #00000000;
+    background-image: none;
+    left:  10%
+}
+
+.updateModalparentStudent{
+    min-height: auto;
+    min-width: 2px;
+    background-color: #00000000;
+    background-image: none;
+    left: 10%
+}
+
+.updateModalparent .modal-content{
+    padding: 0;
+    margin: 0;
+    width: 35vh;
+    height: 20vh;
+    background-color: #000000;
+}
+
+.updateModalparentClass .modal-content{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    height: auto;
+    background-color: #000000;
+}
+
+.updateModalparentStudent .modal-content{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    height: auto;
+    background-color: #000000;
+}
+
+.updateModalparent label.form-label{
+    color: white;
+}
+
+.updateModalparentClass label.form-label{
+    color: white;
+}
+
+
+.updateModalparentStudent label.form-label{
+    color: white;
+}
+
+.updateModalClass{
+    background-image: none;
+    background-size: 40vh;
+    height: auto;
+    min-width: 2px;
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+}
+
+.updateModalStudent{
+    background-image: none;
+    background-size: 40vh;
+    height: auto;
+    min-width: 2px;
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+}
+
+.updateModalClass .form-check{
+    color: white
+}
+
+.updateModal{
+    background-image: none;
+    /* background-size: contain; */
+    min-height: auto;
+    min-width: 2px;
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+}
+
+.updateModal form{
+    background-image: none;
+    /* background-size: contain; */
+    min-height: auto;
+    /* min-width: 2px; */
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+}
+
+
+.updateModalStudent form{
+    background-image: none;
+    /* background-size: contain; */
+    min-height: auto;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+}
+
+.updateModalStudent .modalText{
+    color: white;
+}
+
+/* .updateModalClass form{
+    background-image: none;
+    background-size: cover;
+    min-height: auto;
+    min-width: 2px;
+    margin: 0;
+    padding: 0;
+    background-color: #00000000;
+} */
+/* .modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+} */
+
+.generalForm {
+    background-color: rgba(0, 0, 0, 0.489);
+    border-radius: 5%;
+    padding: 2vh;
+    max-width: 600px;
+    width: 100%; 
+    margin: 2vh;
+    color: white;
+}
+
+.buttonGroup{
+    gap: 2vh;
+    display: flex;
+}
+
+form {
+    padding: 2vh;
+}
+
+.errormessage {
+    color: rgb(0, 255, 255);
+}
+
+.scrollable-table-container::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .scrollable-table-container::-webkit-scrollbar-track {
+    background: rgba(153, 153, 153, 0.266);        /* color of the tracking area */
+  }
+  
+  .scrollable-table-container::-webkit-scrollbar-thumb {
+    background-color: #636975;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }
+
+  .thbutton{
+    background-color: rgba(12, 56, 66, 0);
+    border-color: rgba(255, 255, 255, 0);
+    
+  }
+
+  .addbutton{
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .tdButton{
+    gap: 1vh;
+    display: flex;
+    
+  }
+  /* .buttonAction{
+    background-color: #007bff00;
+    border-color: rgba(255, 255, 255, 0);
+  }
+
+  .deleteButton{
+    color: red;
+  }
+
+  .updateButton{
+    color: #007bff;
+  } */
